@@ -7,11 +7,9 @@ block content
 
   if feature1
     hr
-    br
-    br
-    hr
-    div
+    div.bg-warning
       h2 Amazing New Feature 1
+      //- Snippet from - 'https://bootsnipp.com/snippets/featured/clean-modal-login-form'
       .loginmodal-container
         h1 Login to Your Account
         br
@@ -27,119 +25,114 @@ block content
 
   if feature2
     hr
-    br
-    br
-    hr
-    div
+    div.bg-success
       h2 Amazing Feature 2
-      p
-        | Now available api has been released.
-    .container
-      .row(class='[ ]')
-        h2
-          | Fancy Bootstrap Checkboxes that work with
-          a(href='https://bootswatch.com/', target='_blank') Bootswatch
-        p
-          | My latest project needed some checkboxes that worked very nicely with bootswatch. Use the Theme picker above here to check out what the checkboxes look like in the different themes.
-      .col-xs-12.col-sm-6(class='[ ]')
-        h3 Standard Checkboxes
-        hr
-        .form-group(class='[ ]')
-          input#fancy-checkbox-default(type='checkbox', name='fancy-checkbox-default', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-default(for='fancy-checkbox-default', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-default', class='[ ]')
-              | Default Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-primary(type='checkbox', name='fancy-checkbox-primary', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-primary(for='fancy-checkbox-primary', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-primary', class='[ ]')
-              | Primary Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-success(type='checkbox', name='fancy-checkbox-success', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-success(for='fancy-checkbox-success', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-success', class='[ ]')
-              | Success Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-info(type='checkbox', name='fancy-checkbox-info', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-info(for='fancy-checkbox-info', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-info', class='[ ]')
-              | Info Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-warning(type='checkbox', name='fancy-checkbox-warning', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-warning(for='fancy-checkbox-warning', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-warning', class='[ ]')
-              | Warning Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-danger(type='checkbox', name='fancy-checkbox-danger', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-danger(for='fancy-checkbox-danger', class='[ ]')
-              span.glyphicon.glyphicon-ok(class='[ ]')
-              span  
-            label.btn.btn-default.active(for='fancy-checkbox-danger', class='[ ]')
-              | Danger Checkbox
-      .col-xs-12.col-sm-6(class='[ ]')
-        h3 Custom Icons Checkboxes
-        hr
-        .form-group(class='[ ]')
-          input#fancy-checkbox-default-custom-icons(type='checkbox', name='fancy-checkbox-default-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-default(for='fancy-checkbox-default-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-default-custom-icons', class='[ ]')
-              | Default Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-primary-custom-icons(type='checkbox', name='fancy-checkbox-primary-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-primary(for='fancy-checkbox-primary-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-primary-custom-icons', class='[ ]')
-              | Primary Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-success-custom-icons(type='checkbox', name='fancy-checkbox-success-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-success(for='fancy-checkbox-success-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-success-custom-icons', class='[ ]')
-              | Success Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-info-custom-icons(type='checkbox', name='fancy-checkbox-info-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-info(for='fancy-checkbox-info-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-info-custom-icons', class='[ ]')
-              | Info Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-warning-custom-icons(type='checkbox', name='fancy-checkbox-warning-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-warning(for='fancy-checkbox-warning-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-warning-custom-icons', class='[ ]')
-              | Warning Checkbox
-        .form-group(class='[ ]')
-          input#fancy-checkbox-danger-custom-icons(type='checkbox', name='fancy-checkbox-danger-custom-icons', autocomplete='off')
-          .btn-group(class='[ ]')
-            label.btn.btn-danger(for='fancy-checkbox-danger-custom-icons', class='[ ]')
-              span.glyphicon.glyphicon-plus(class='[ ]')
-              span.glyphicon.glyphicon-minus(class='[ ]')
-            label.btn.btn-default.active(for='fancy-checkbox-danger-custom-icons', class='[ ]')
-              | Danger Checkbox
+      //- Snippet from - 'https://bootsnipp.com/snippets/featured/clean-modal-login-form'
+      .container-fluid
+        .row
+          h2 Fancy Bootstrap Checkboxes that work with
+            a(href='https://bootswatch.com/', target='_blank')  Bootswatch
+          p
+            | My latest project needed some checkboxes that worked very nicely with bootswatch. Use the Theme picker above here to check out what the checkboxes look like in the different themes.
+        .col-xs-12.col-sm-6
+          h3 Standard Checkboxes
+          hr
+          .form-group
+            input#fancy-checkbox-default(type='checkbox', name='fancy-checkbox-default', autocomplete='off')
+            .btn-group
+              label.btn.btn-default(for='fancy-checkbox-default')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-default')
+                | Default Checkbox
+          .form-group
+            input#fancy-checkbox-primary(type='checkbox', name='fancy-checkbox-primary', autocomplete='off')
+            .btn-group
+              label.btn.btn-primary(for='fancy-checkbox-primary')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-primary')
+                | Primary Checkbox
+          .form-group
+            input#fancy-checkbox-success(type='checkbox', name='fancy-checkbox-success', autocomplete='off')
+            .btn-group
+              label.btn.btn-success(for='fancy-checkbox-success')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-success')
+                | Success Checkbox
+          .form-group
+            input#fancy-checkbox-info(type='checkbox', name='fancy-checkbox-info', autocomplete='off')
+            .btn-group
+              label.btn.btn-info(for='fancy-checkbox-info')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-info')
+                | Info Checkbox
+          .form-group
+            input#fancy-checkbox-warning(type='checkbox', name='fancy-checkbox-warning', autocomplete='off')
+            .btn-group
+              label.btn.btn-warning(for='fancy-checkbox-warning')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-warning')
+                | Warning Checkbox
+          .form-group
+            input#fancy-checkbox-danger(type='checkbox', name='fancy-checkbox-danger', autocomplete='off')
+            .btn-group
+              label.btn.btn-danger(for='fancy-checkbox-danger')
+                span.glyphicon.glyphicon-ok
+                span  
+              label.btn.btn-default.active(for='fancy-checkbox-danger')
+                | Danger Checkbox
+        .col-xs-12.col-sm-6
+          h3 Custom Icons Checkboxes
+          hr
+          .form-group
+            input#fancy-checkbox-default-custom-icons(type='checkbox', name='fancy-checkbox-default-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-default(for='fancy-checkbox-default-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-default-custom-icons')
+                | Default Checkbox
+          .form-group
+            input#fancy-checkbox-primary-custom-icons(type='checkbox', name='fancy-checkbox-primary-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-primary(for='fancy-checkbox-primary-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-primary-custom-icons')
+                | Primary Checkbox
+          .form-group
+            input#fancy-checkbox-success-custom-icons(type='checkbox', name='fancy-checkbox-success-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-success(for='fancy-checkbox-success-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-success-custom-icons')
+                | Success Checkbox
+          .form-group
+            input#fancy-checkbox-info-custom-icons(type='checkbox', name='fancy-checkbox-info-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-info(for='fancy-checkbox-info-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-info-custom-icons')
+                | Info Checkbox
+          .form-group
+            input#fancy-checkbox-warning-custom-icons(type='checkbox', name='fancy-checkbox-warning-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-warning(for='fancy-checkbox-warning-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-warning-custom-icons')
+                | Warning Checkbox
+          .form-group
+            input#fancy-checkbox-danger-custom-icons(type='checkbox', name='fancy-checkbox-danger-custom-icons', autocomplete='off')
+            .btn-group
+              label.btn.btn-danger(for='fancy-checkbox-danger-custom-icons')
+                span.glyphicon.glyphicon-plus
+                span.glyphicon.glyphicon-minus
+              label.btn.btn-default.active(for='fancy-checkbox-danger-custom-icons')
+                | Danger Checkbox
